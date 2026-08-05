@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            #ani
+            {
+                height: 300px;
+                width: 300px;
+                background: red;
+                animation-name: asd;
+                animation-duration: 5s;
+            }
+            @keyframes asd{
+                from{background: red}
+                to{background: blue}
+            }
+            #aa
+            {
+                height: 300px;
+                width: 300px;
+                background:yellow;
+                animation-name:XYZ;
+                animation-duration:5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes xyz{
+                0%{background: red}
+                25%{background:black}
+                50%{background:green}
+                75%{background: purple}
+                100%{background: gray}
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ani"></div>
+        <div id="aa"></div>
+    </body>
+</html>
