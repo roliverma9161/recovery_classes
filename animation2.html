@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+             #a
+             {
+                height: 100px;
+                width: 100px;
+                background: red;
+                animation-name: pqr;
+                animation-duration: 5s;
+                position: absolute;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-delay: 3s;
+                animation:pqr 5s infinite alternate 3s;
+             }
+             @keyframes pqr
+             {
+                0%{background: red; top: 0px;left: 0px}
+                25%{background: blue;top: 0px; left: 600px}
+                50%{background: black;top: 400px;left: 600}
+                75%{background: purple;top: 400px;left: 0px}
+                100%{background: gray;top: 0px;left: 0px}
+             }px
+        </style>
+    </head>
+    <body>
+        <div id="a"></div>
+    </body>
+</html>
